@@ -54,12 +54,8 @@ function setTime(value) {
 }
 
 function finishGame() {
-    //timer.parentElement.remove();
-    //timer.parentNode.classList.add('hide');
     timer.parentElement.classList.add('hide');
     board.innerHTML = `<h1>Score: <span class="primary">${score}</span></h1>`;
-    //board.innerHTML = `<h1>Score: <span class="primary">${score}</span></h1>
-    //<button id="refresh" class="time-btn" style="margin: 15px">Refresh</button>`;
 }
 
 function createRandomCircle() {
